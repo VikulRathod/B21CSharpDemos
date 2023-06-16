@@ -1,4 +1,12 @@
-﻿int i1 = 10, i2 = 10;
+﻿int i = 2;
+Console.WriteLine(i);
+
+Console.WriteLine(i >> 1);
+
+Console.WriteLine(i << 1);
+
+
+int i1 = 10, i2 = 10;
 Console.WriteLine(i1); // 10
 
 bool b1 = i1 == i2;
