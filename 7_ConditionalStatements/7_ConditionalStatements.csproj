@@ -3,9 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>_6_NullableTypes</RootNamespace>
+    <RootNamespace>_7_ConditionalStatements</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <!--<Nullable>enable</Nullable>-->
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>
