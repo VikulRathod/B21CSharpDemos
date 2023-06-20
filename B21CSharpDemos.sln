@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_ValueTypesReferenceTypes"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_NullableTypes", "6_NullableTypes\6_NullableTypes.csproj", "{E7E46924-7274-4483-BB21-71D7F677B118}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_ConditionalStatements", "7_ConditionalStatements\7_ConditionalStatements.csproj", "{DA1E05AF-DDE5-4576-90AB-BF0DEEEB2FBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_ConditionalStatements", "7_ConditionalStatements\7_ConditionalStatements.csproj", "{DA1E05AF-DDE5-4576-90AB-BF0DEEEB2FBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_ConditionalStatementsExample", "8_ConditionalStatementsExample\8_ConditionalStatementsExample.csproj", "{66E971CC-7EE3-40DA-836D-B5DE5F41DF86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_ConditionalStatementsExample", "8_ConditionalStatementsExample\8_ConditionalStatementsExample.csproj", "{66E971CC-7EE3-40DA-836D-B5DE5F41DF86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_LoopingStatements", "9_LoopingStatements\9_LoopingStatements.csproj", "{F0398F5E-12E2-4816-A651-51E7799474B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{66E971CC-7EE3-40DA-836D-B5DE5F41DF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66E971CC-7EE3-40DA-836D-B5DE5F41DF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66E971CC-7EE3-40DA-836D-B5DE5F41DF86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0398F5E-12E2-4816-A651-51E7799474B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0398F5E-12E2-4816-A651-51E7799474B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0398F5E-12E2-4816-A651-51E7799474B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0398F5E-12E2-4816-A651-51E7799474B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
