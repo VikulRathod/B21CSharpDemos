@@ -94,23 +94,43 @@
 // input how are you
 // output woh era uoy
 
-Console.WriteLine("Please enter a sentence");
-string input = Console.ReadLine();
+//using System;
 
-string[] words = input.Split(' ');
+//Console.WriteLine("Please enter a sentence");
+//string input = Console.ReadLine();
 
-Console.Write("Output: ");
-for (int i = 0; i < words.Length; i++)
-{
-    string revWord = "";
-    char[] word = words[i].ToCharArray();
-    for (int j = word.Length - 1; j >= 0; j--)
-    {
-        revWord += word[j];
-    }
-    Console.Write($"{revWord} ");
-}
+//string[] words = input.Split(' ');
+
+//Console.Write("Output: ");
+//for (int i = 0; i < words.Length; i++)
+//{
+//    string revWord = "";
+//    char[] word = words[i].ToCharArray();
+//    for (int j = word.Length - 1; j >= 0; j--)
+//    {
+//        revWord += word[j];
+//    }
+//    Console.Write($"{revWord} ");
+//}
 
 #endregion reverse string of each words in a sentence
+
+for (int i = 1; i <= 5; i++)
+{
+    for (int m = 1; m <= 5; m++)
+    {
+        if (i == m)
+        {
+            Console.Write($"{m}\t");
+
+        }
+        else
+        {
+            Console.Write(" \t");
+        }
+    }
+
+    Console.WriteLine();
+}
 
 Console.ReadLine();
