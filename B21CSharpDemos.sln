@@ -33,7 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_MethodParameters", "13_M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_ClassDemo", "14_ClassDemo\14_ClassDemo.csproj", "{B8BB9B7D-8AAC-4DD2-B8D1-15A8BA311E83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_ClassDemoV1", "15_ClassDemoV1\15_ClassDemoV1.csproj", "{C04D9D1F-6C70-461C-BC40-C7E490C16DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_ClassDemoV1", "15_ClassDemoV1\15_ClassDemoV1.csproj", "{C04D9D1F-6C70-461C-BC40-C7E490C16DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_ConstructorDemo", "16_ConstructorDemo\16_ConstructorDemo.csproj", "{D5851B98-8823-4E0C-BEBB-BBC59A34C104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_InheritanceDemo", "17_InheritanceDemo\17_InheritanceDemo.csproj", "{E3C5C04A-9355-43DC-AC9F-FD7C399032CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{C04D9D1F-6C70-461C-BC40-C7E490C16DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C04D9D1F-6C70-461C-BC40-C7E490C16DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C04D9D1F-6C70-461C-BC40-C7E490C16DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5851B98-8823-4E0C-BEBB-BBC59A34C104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5851B98-8823-4E0C-BEBB-BBC59A34C104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5851B98-8823-4E0C-BEBB-BBC59A34C104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5851B98-8823-4E0C-BEBB-BBC59A34C104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C5C04A-9355-43DC-AC9F-FD7C399032CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C5C04A-9355-43DC-AC9F-FD7C399032CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C5C04A-9355-43DC-AC9F-FD7C399032CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C5C04A-9355-43DC-AC9F-FD7C399032CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
