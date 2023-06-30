@@ -35,9 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_ClassDemo", "14_ClassDem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_ClassDemoV1", "15_ClassDemoV1\15_ClassDemoV1.csproj", "{C04D9D1F-6C70-461C-BC40-C7E490C16DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_ConstructorDemo", "16_ConstructorDemo\16_ConstructorDemo.csproj", "{D5851B98-8823-4E0C-BEBB-BBC59A34C104}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_ConstructorDemo", "16_ConstructorDemo\16_ConstructorDemo.csproj", "{D5851B98-8823-4E0C-BEBB-BBC59A34C104}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_InheritanceDemo", "17_InheritanceDemo\17_InheritanceDemo.csproj", "{E3C5C04A-9355-43DC-AC9F-FD7C399032CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_InheritanceDemo", "17_InheritanceDemo\17_InheritanceDemo.csproj", "{E3C5C04A-9355-43DC-AC9F-FD7C399032CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_InheritanceContinued", "18_InheritanceContinued\18_InheritanceContinued.csproj", "{52F8F931-B8C1-466F-B0F5-0DFB7888D5E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_MethodHiding", "19_MethodHiding\19_MethodHiding.csproj", "{2093DC2F-D118-41F0-B865-00D752E0D15B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,14 @@ Global
 		{E3C5C04A-9355-43DC-AC9F-FD7C399032CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3C5C04A-9355-43DC-AC9F-FD7C399032CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3C5C04A-9355-43DC-AC9F-FD7C399032CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F8F931-B8C1-466F-B0F5-0DFB7888D5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F8F931-B8C1-466F-B0F5-0DFB7888D5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F8F931-B8C1-466F-B0F5-0DFB7888D5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F8F931-B8C1-466F-B0F5-0DFB7888D5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2093DC2F-D118-41F0-B865-00D752E0D15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2093DC2F-D118-41F0-B865-00D752E0D15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2093DC2F-D118-41F0-B865-00D752E0D15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2093DC2F-D118-41F0-B865-00D752E0D15B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
