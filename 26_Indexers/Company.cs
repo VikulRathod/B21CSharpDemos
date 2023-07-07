@@ -3,6 +3,21 @@
     public int Id { get; set; }
     public string Name { get; set; }
     public string City { get; set; }
+
+    public string this[int i]
+    {
+        get
+        {
+            if(i % 2 == 0)
+            {
+                return "EVEN NUMBER";
+            }
+            else
+            {
+                return "ODD NUMBER";
+            }
+        }
+    }
 }
 
 public class Company

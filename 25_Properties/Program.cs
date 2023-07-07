@@ -102,4 +102,18 @@ class Student
     }
 
     public string Email { get; set; }
+
+    private static string _courseName;
+
+    public static string CourseName
+    {
+        get
+        {
+            return _courseName;
+        }
+        set
+        {
+            _courseName = value;
+        }
+    }
 }

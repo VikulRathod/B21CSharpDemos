@@ -1,5 +1,4 @@
-﻿
-string[] names = new string[] { "Dipak", "Kunal", "Ramesh", "Ritesh" };
+﻿string[] names = new string[] { "Dipak", "Kunal", "Ramesh", "Ritesh" };
 string name = names[2];
 Console.WriteLine(name); // Ramesh
 
@@ -7,9 +6,10 @@ name = names[1];
 Console.WriteLine(name); // Kunal
 
 Employee e1 = new Employee() { Id = 100, Name = "Vishal", City = "Pune" };
+
 Employee[] employees = new Employee[]
 {
-    e1,
+    e1, 
 new Employee(){ Id = 101, Name = "Dipak", City = "Mumbai"},
 new Employee(){ Id = 102, Name = "Mahesh", City = "Pune"},
 new Employee(){ Id = 103, Name = "Sachin", City = "Kalyan"},
@@ -41,6 +41,18 @@ if(e != null)
 
 string sname = "Vishal";
 char a = sname[0]; // V
+
+
+int[] nums1 = new int[] { 10,20,30};
+
+int i1 = 10;
+int i2 = 20;
+int i3 = 30;
+int[] nums2 = new int[] { i1, i2, i3};
+
+Employee emp = new Employee();
+string result = emp[41];
+Console.WriteLine(result);
 
 Console.ReadLine();
 
