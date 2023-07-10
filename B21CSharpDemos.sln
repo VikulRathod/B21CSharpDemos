@@ -65,9 +65,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25_Properties", "25_Propert
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_Indexers", "26_Indexers\26_Indexers.csproj", "{54175426-D0C2-4F44-A299-481C49B77074}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_MethodOverriding", "27_MethodOverriding\27_MethodOverriding.csproj", "{7E230DB4-9F96-43DF-BF97-3D3A6302B7A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_MethodOverriding", "27_MethodOverriding\27_MethodOverriding.csproj", "{7E230DB4-9F96-43DF-BF97-3D3A6302B7A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28_MethodOverloading", "28_MethodOverloading\28_MethodOverloading.csproj", "{B55FF189-93B4-4735-A143-3D72C6E95CF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_MethodOverloading", "28_MethodOverloading\28_MethodOverloading.csproj", "{B55FF189-93B4-4735-A143-3D72C6E95CF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_OperatorOverloading", "29_OperatorOverloading\29_OperatorOverloading.csproj", "{42062D55-AA49-4078-84DA-7C556F217F46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_OperatorOverloading1", "29_OperatorOverloading1\29_OperatorOverloading1.csproj", "{AB9714FD-93BD-4B1C-A6A5-A17575792DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_abstractKeyword", "30_abstractKeyword\30_abstractKeyword.csproj", "{EF10AE71-FA74-44E3-9C72-2661A3A9E935}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +213,18 @@ Global
 		{B55FF189-93B4-4735-A143-3D72C6E95CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B55FF189-93B4-4735-A143-3D72C6E95CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B55FF189-93B4-4735-A143-3D72C6E95CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42062D55-AA49-4078-84DA-7C556F217F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42062D55-AA49-4078-84DA-7C556F217F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42062D55-AA49-4078-84DA-7C556F217F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42062D55-AA49-4078-84DA-7C556F217F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9714FD-93BD-4B1C-A6A5-A17575792DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9714FD-93BD-4B1C-A6A5-A17575792DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9714FD-93BD-4B1C-A6A5-A17575792DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9714FD-93BD-4B1C-A6A5-A17575792DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF10AE71-FA74-44E3-9C72-2661A3A9E935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF10AE71-FA74-44E3-9C72-2661A3A9E935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF10AE71-FA74-44E3-9C72-2661A3A9E935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF10AE71-FA74-44E3-9C72-2661A3A9E935}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
