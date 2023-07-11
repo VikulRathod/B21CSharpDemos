@@ -69,11 +69,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_MethodOverriding", "27_M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_MethodOverloading", "28_MethodOverloading\28_MethodOverloading.csproj", "{B55FF189-93B4-4735-A143-3D72C6E95CF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_OperatorOverloading", "29_OperatorOverloading\29_OperatorOverloading.csproj", "{42062D55-AA49-4078-84DA-7C556F217F46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29_OperatorOverloading", "29_OperatorOverloading\29_OperatorOverloading.csproj", "{42062D55-AA49-4078-84DA-7C556F217F46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_OperatorOverloading1", "29_OperatorOverloading1\29_OperatorOverloading1.csproj", "{AB9714FD-93BD-4B1C-A6A5-A17575792DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29_OperatorOverloading1", "29_OperatorOverloading1\29_OperatorOverloading1.csproj", "{AB9714FD-93BD-4B1C-A6A5-A17575792DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_abstractKeyword", "30_abstractKeyword\30_abstractKeyword.csproj", "{EF10AE71-FA74-44E3-9C72-2661A3A9E935}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30_abstractKeyword", "30_abstractKeyword\30_abstractKeyword.csproj", "{EF10AE71-FA74-44E3-9C72-2661A3A9E935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_MultipleClassInheritance", "31_MultipleClassInheritance\31_MultipleClassInheritance.csproj", "{01298D48-CE82-4169-B55E-02D8BC9C95CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32_Interfaces", "32_Interfaces\32_Interfaces.csproj", "{21464BB8-46E5-4E6B-A452-3E6D6C9F7CBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_InterfaceUses", "33_InterfaceUses\33_InterfaceUses.csproj", "{FFE154D6-F870-4FA7-B118-03C7FBD7C604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_SealedKeyword", "34_SealedKeyword\34_SealedKeyword.csproj", "{715D1AB4-DF15-4A2C-A42B-E7ED9B171425}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +233,22 @@ Global
 		{EF10AE71-FA74-44E3-9C72-2661A3A9E935}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF10AE71-FA74-44E3-9C72-2661A3A9E935}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF10AE71-FA74-44E3-9C72-2661A3A9E935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01298D48-CE82-4169-B55E-02D8BC9C95CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01298D48-CE82-4169-B55E-02D8BC9C95CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01298D48-CE82-4169-B55E-02D8BC9C95CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01298D48-CE82-4169-B55E-02D8BC9C95CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21464BB8-46E5-4E6B-A452-3E6D6C9F7CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21464BB8-46E5-4E6B-A452-3E6D6C9F7CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21464BB8-46E5-4E6B-A452-3E6D6C9F7CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21464BB8-46E5-4E6B-A452-3E6D6C9F7CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE154D6-F870-4FA7-B118-03C7FBD7C604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE154D6-F870-4FA7-B118-03C7FBD7C604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE154D6-F870-4FA7-B118-03C7FBD7C604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE154D6-F870-4FA7-B118-03C7FBD7C604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{715D1AB4-DF15-4A2C-A42B-E7ED9B171425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{715D1AB4-DF15-4A2C-A42B-E7ED9B171425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{715D1AB4-DF15-4A2C-A42B-E7ED9B171425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{715D1AB4-DF15-4A2C-A42B-E7ED9B171425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
