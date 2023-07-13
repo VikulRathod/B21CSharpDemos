@@ -75,13 +75,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29_OperatorOverloading1", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30_abstractKeyword", "30_abstractKeyword\30_abstractKeyword.csproj", "{EF10AE71-FA74-44E3-9C72-2661A3A9E935}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_MultipleClassInheritance", "31_MultipleClassInheritance\31_MultipleClassInheritance.csproj", "{01298D48-CE82-4169-B55E-02D8BC9C95CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_MultipleClassInheritance", "31_MultipleClassInheritance\31_MultipleClassInheritance.csproj", "{01298D48-CE82-4169-B55E-02D8BC9C95CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32_Interfaces", "32_Interfaces\32_Interfaces.csproj", "{21464BB8-46E5-4E6B-A452-3E6D6C9F7CBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "32_Interfaces", "32_Interfaces\32_Interfaces.csproj", "{21464BB8-46E5-4E6B-A452-3E6D6C9F7CBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_InterfaceUses", "33_InterfaceUses\33_InterfaceUses.csproj", "{FFE154D6-F870-4FA7-B118-03C7FBD7C604}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33_InterfaceUses", "33_InterfaceUses\33_InterfaceUses.csproj", "{FFE154D6-F870-4FA7-B118-03C7FBD7C604}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_SealedKeyword", "34_SealedKeyword\34_SealedKeyword.csproj", "{715D1AB4-DF15-4A2C-A42B-E7ED9B171425}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "34_SealedKeyword", "34_SealedKeyword\34_SealedKeyword.csproj", "{715D1AB4-DF15-4A2C-A42B-E7ED9B171425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35_PartialKeyword", "35_PartialKeyword\35_PartialKeyword.csproj", "{4BA81BD5-DB53-489B-89A6-A4F7794FDBDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_Generics", "36_Generics\36_Generics.csproj", "{42774DB0-90A3-4DB1-BC00-36A7C91451E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +253,14 @@ Global
 		{715D1AB4-DF15-4A2C-A42B-E7ED9B171425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{715D1AB4-DF15-4A2C-A42B-E7ED9B171425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{715D1AB4-DF15-4A2C-A42B-E7ED9B171425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA81BD5-DB53-489B-89A6-A4F7794FDBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA81BD5-DB53-489B-89A6-A4F7794FDBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA81BD5-DB53-489B-89A6-A4F7794FDBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA81BD5-DB53-489B-89A6-A4F7794FDBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42774DB0-90A3-4DB1-BC00-36A7C91451E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42774DB0-90A3-4DB1-BC00-36A7C91451E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42774DB0-90A3-4DB1-BC00-36A7C91451E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42774DB0-90A3-4DB1-BC00-36A7C91451E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
