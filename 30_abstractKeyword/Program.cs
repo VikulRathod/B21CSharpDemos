@@ -17,7 +17,7 @@
 Customer[] customers = new Customer[3];
 customers[0] = new SilverCustomer();
 customers[1] = new GoldCustomer();
-customers[2] = new Enquiry();
+// customers[2] = new Enquiry();
 
 for (int i = 0; i < customers.Length; i++)
 {
