@@ -93,9 +93,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "37_ObjectType", "37_ObjectT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "38_vardynamickeywords", "38_vardynamickeywords\38_vardynamickeywords.csproj", "{99664050-9164-4E23-8C96-751D78950FC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39_constreadonly", "39_constreadonly\39_constreadonly.csproj", "{41EB727F-8B1B-4C9B-9832-B01BDD578E85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "39_constreadonly", "39_constreadonly\39_constreadonly.csproj", "{41EB727F-8B1B-4C9B-9832-B01BDD578E85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40_enum", "40_enum\40_enum.csproj", "{74486A1C-6F2D-4AF0-83A2-2B95E334A3EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "40_enum", "40_enum\40_enum.csproj", "{74486A1C-6F2D-4AF0-83A2-2B95E334A3EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41_ExceptionsDemo", "41_ExceptionsDemo\41_ExceptionsDemo.csproj", "{E4EDC896-0BCF-443F-B2A0-BBF8B1C4451A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41_ExceptionsDemoContinued", "41_ExceptionsDemoContinued\41_ExceptionsDemoContinued.csproj", "{F00A7F8B-C76B-41A1-9411-979073A0E074}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +295,14 @@ Global
 		{74486A1C-6F2D-4AF0-83A2-2B95E334A3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74486A1C-6F2D-4AF0-83A2-2B95E334A3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74486A1C-6F2D-4AF0-83A2-2B95E334A3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4EDC896-0BCF-443F-B2A0-BBF8B1C4451A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EDC896-0BCF-443F-B2A0-BBF8B1C4451A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EDC896-0BCF-443F-B2A0-BBF8B1C4451A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EDC896-0BCF-443F-B2A0-BBF8B1C4451A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00A7F8B-C76B-41A1-9411-979073A0E074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00A7F8B-C76B-41A1-9411-979073A0E074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00A7F8B-C76B-41A1-9411-979073A0E074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00A7F8B-C76B-41A1-9411-979073A0E074}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
