@@ -97,9 +97,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "39_constreadonly", "39_cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "40_enum", "40_enum\40_enum.csproj", "{74486A1C-6F2D-4AF0-83A2-2B95E334A3EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41_ExceptionsDemo", "41_ExceptionsDemo\41_ExceptionsDemo.csproj", "{E4EDC896-0BCF-443F-B2A0-BBF8B1C4451A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41_ExceptionsDemo", "41_ExceptionsDemo\41_ExceptionsDemo.csproj", "{E4EDC896-0BCF-443F-B2A0-BBF8B1C4451A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41_ExceptionsDemoContinued", "41_ExceptionsDemoContinued\41_ExceptionsDemoContinued.csproj", "{F00A7F8B-C76B-41A1-9411-979073A0E074}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41_ExceptionsDemoContinued", "41_ExceptionsDemoContinued\41_ExceptionsDemoContinued.csproj", "{F00A7F8B-C76B-41A1-9411-979073A0E074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "42_Delegates", "42_Delegates\42_Delegates.csproj", "{91348117-12F3-4DE6-950C-D6B4B80AADBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +305,10 @@ Global
 		{F00A7F8B-C76B-41A1-9411-979073A0E074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F00A7F8B-C76B-41A1-9411-979073A0E074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F00A7F8B-C76B-41A1-9411-979073A0E074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91348117-12F3-4DE6-950C-D6B4B80AADBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91348117-12F3-4DE6-950C-D6B4B80AADBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91348117-12F3-4DE6-950C-D6B4B80AADBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91348117-12F3-4DE6-950C-D6B4B80AADBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,6 +2,10 @@
 //Calculator c1 = new Calculator();
 //Console.WriteLine(c1.Sample());
 
+string name = null;
+if(name != null)
+    Console.WriteLine(name.ToUpper());
+
 int num = 0;
 int den = 0;
 
