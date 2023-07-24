@@ -1,4 +1,4 @@
-﻿public delegate bool PromoteCriteriaDel(Employee e);
+﻿// public delegate bool PromoteCriteriaDel(Employee e);
 
 public class Company
 {
@@ -21,7 +21,8 @@ public class Company
         }
     }
 
-    public void Promote(PromoteCriteriaDel del)
+    // public void Promote(PromoteCriteriaDel del)
+    public void Promote(Predicate<Employee> del)
     {
         Console.WriteLine("*** Promoted Employees ***");
         for (int i = 0; i < _employees.Length; i++)

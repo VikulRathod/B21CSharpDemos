@@ -2,6 +2,16 @@
 {
     static void Main()
     {
+        //Subject[] Subjects = new Subject[] 
+        //{
+        //Subject.Marathi, Subject.Hindi, Subject.English
+        //};
+
+        //for (int i = 0; i < Subjects.Length; i++)
+        //{
+        //    Console.Write($"{Subjects[i]} ");
+        //}
+
         Employee[] employees = new Employee[]
 {
 new Employee(){Id = 1, Name = "Ramesh",
@@ -28,10 +38,10 @@ new Employee(){Id = 5, Name = "Payal",
         //PromoteCriteriaDel del1 = e => {
         //    return e.Gender == "Female";
         //};
-        PromoteCriteriaDel del1 = e => e.Gender == "Female";
+        Predicate<Employee> del1 = e => e.Gender == "Female";
         tcs.Promote(del1);
 
-        PromoteCriteriaDel del = delegate (Employee e)
+        Predicate<Employee> del = delegate (Employee e)
         {
             return e.DepartmentName == "HR";
         };
@@ -56,7 +66,7 @@ new Employee(){Id = 5, Name = "Snehal",
 
         Company wipro = new Company("WIPRO", wiproemployees);
         wipro.EmployeeNames();
-        PromoteCriteriaDel del2 = WiproPromoteCriteria;
+        Predicate<Employee> del2 = WiproPromoteCriteria;
         wipro.Promote(del2);
 
         Console.ReadLine();
@@ -73,4 +83,9 @@ new Employee(){Id = 5, Name = "Snehal",
         // return e.DepartmentName == "ADMIN";
         return e.DepartmentName == "ADMIN" || e.DepartmentName == "HR";
     }
+}
+
+enum Subject
+{
+    Marathi, Hindi, English
 }
