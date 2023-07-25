@@ -107,9 +107,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "43_CompanyLibrary", "43_Com
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "43_CompanyLibraryClient", "43_CompanyLibraryClient\43_CompanyLibraryClient.csproj", "{C9E00A94-20B7-423F-80C4-7FBD9D4D7E20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "44_GenericDelegates", "44_GenericDelegates\44_GenericDelegates.csproj", "{FD4DD1CD-7CC6-4E6C-BEF6-D58B3A1F2787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "44_GenericDelegates", "44_GenericDelegates\44_GenericDelegates.csproj", "{FD4DD1CD-7CC6-4E6C-BEF6-D58B3A1F2787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45_Collections", "45_Collections\45_Collections.csproj", "{A92F17FC-CF25-4129-9EDA-77C467A656DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "45_Collections", "45_Collections\45_Collections.csproj", "{A92F17FC-CF25-4129-9EDA-77C467A656DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "456_GenericCollectionClasses", "456_GenericCollectionClasses\456_GenericCollectionClasses.csproj", "{EB1196A7-4445-4181-B251-6D15872F9054}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,6 +335,10 @@ Global
 		{A92F17FC-CF25-4129-9EDA-77C467A656DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A92F17FC-CF25-4129-9EDA-77C467A656DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A92F17FC-CF25-4129-9EDA-77C467A656DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1196A7-4445-4181-B251-6D15872F9054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1196A7-4445-4181-B251-6D15872F9054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1196A7-4445-4181-B251-6D15872F9054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1196A7-4445-4181-B251-6D15872F9054}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
