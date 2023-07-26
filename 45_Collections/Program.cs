@@ -67,7 +67,7 @@
 //using System.Collections;
 
 //Hashtable students = new Hashtable();
-// students.Add("Pramod", new Sample());
+//students.Add("Pramod", new Sample());
 //students.Add(1, "Ramesh");
 //students.Add(2, "Kunal");
 //students.Add(3, "Snehal");
@@ -78,6 +78,11 @@
 //{
 //    Console.WriteLine($"{item.Key} : {item.Value}");
 //}
+
+////foreach (object item in students.Keys)
+////{
+////    Console.WriteLine(item);
+////}
 
 //students.Add(4, "Shital");
 //Console.WriteLine("*** After Add(4, \"Shital\") ***");
@@ -163,6 +168,26 @@
 #endregion Collection class = Queue
 
 
+using System.Collections;
+
+ArrayList a = new ArrayList();
+
+ICollection<int> defaultList = new List<int>() { 43, 53, 63 };
+
+List<int> l = new List<int>();
+l.Add(10);
+l.AddRange(defaultList);
+
+
+HashSet<int> h = new HashSet<int>();
+
+Customer customers = new Customer();
+foreach (var item in customers)
+{
+
+}
+
+
 Console.ReadLine();
 
 class Sample
@@ -180,4 +205,12 @@ class Sample
     //    }
     //    Console.WriteLine(); // new line
     //}
+}
+
+class Customer : IEnumerable
+{
+    public IEnumerator GetEnumerator()
+    {
+        throw new NotImplementedException();
+    }
 }
